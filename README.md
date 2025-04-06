@@ -39,7 +39,7 @@ The **YouTube Summarizer** is a tool that extracts transcripts from YouTube vide
 1.  Clone this repository:
     
     ```bash 
-    git clone https://github.com/krishng03/yt-summarizer.git    
+    git clone https://github.com/krishng03/youtube-summarizer.git    
 2.  Install dependencies (Create virtual environment):
     
 	1. ```bash
@@ -47,8 +47,8 @@ The **YouTube Summarizer** is a tool that extracts transcripts from YouTube vide
 	2. ```bash
 		npm install	   
 3.  Run the application:
-	1. Run `python server.py` in one terminal
-	2. Run `cd client` and `npm start` in other terminal respectively  
+	1. Run `py server.py` in one terminal
+	2. Run `npm run start` in other terminal respectively  
 
 ----------
 
