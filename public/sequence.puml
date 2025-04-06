@@ -1,0 +1,18 @@
+@startuml
+actor User
+participant "YouTube Summarizer" as System
+participant "YouTube API" as API
+participant "Summarizer" as AI
+
+User -> System: Enter YouTube video link
+System -> API: Fetch video details
+API --> System: Return video details
+
+System -> API: Request video transcript
+API --> System: Return transcript
+
+System -> AI: Process transcript and generate summary
+AI --> System: Return summarized content
+
+System -> User: Display summarized content
+@enduml
