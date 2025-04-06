@@ -29,3 +29,5 @@ docs
 frames
 
 secrets.json
+
+venv/
